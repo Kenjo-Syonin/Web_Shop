@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all 0.5s;
 }
 
 nav{
@@ -127,6 +128,25 @@ article a:hover {
 footer p{
     color: black;
 }
+
+
+.nav-right {
+    float: right;
+    margin-right: auto;
+    margin-right: 25px;
+}
+
+.nav-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
 
 @keyframes rgb-box {
     0% {
